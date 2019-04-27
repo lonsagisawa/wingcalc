@@ -1,0 +1,20 @@
+{
+    "season2": [ 
+        { "liveId": "elebest", "liveName": "【期間限定】エレぇベスト" }
+    ],
+    "season3": [ 
+        { "liveId": "pop-on", "liveName": "POP-ON!" },
+        { "liveId": "spotlight", "liveName": "SPOT LIGHTのせいにして…" },
+        { "liveId": "iitomo", "liveName": "踊っていいとも？増刊号" }
+    ],
+    "season4": [
+        { "liveId": "allidol", "liveName": "オールアイドル感謝FESTIVAL" },
+        { "liveId": "legend", "liveName": "THE LEGEND" },
+        { "liveId": "7colors", "liveName": "七彩メモリーズ" },
+        { "liveId": "diva", "liveName": "歌姫楽宴" }
+    ],
+    "wing": [ 
+        { "liveId": "semifinal", "liveName": "準決勝" },
+        { "liveId": "final", "liveName": "決勝" }
+    ]
+}

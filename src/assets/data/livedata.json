@@ -1,0 +1,218 @@
+{
+    "elebest": {
+        "name": "エレぇベスト",
+        "baseattack": 1600,
+        "health": 35000,
+        "idols": [
+            {
+                "name": "meguru",
+                "appeal": "dance",
+                "type": "variable",
+                "priority": [1, 2, 3]
+            },
+            {
+                "name": "mamimi",
+                "appeal": "visual",
+                "type": "variable",
+                "priority": [2, 1, 3]
+            },
+            {
+                "name": "sakuya",
+                "appeal": "dance",
+                "type": "spear",
+                "priority": [1, 2, 3]
+            },
+            {
+                "name": "yuika",
+                "appeal": "visual",
+                "type": "variable",
+                "priority": [3, 2, 1]
+            }
+        ]
+    },
+    "legend": {
+        "name": "THE LEGEND",
+        "baseattack": 4250,
+        "health": 75000,
+        "idols": [
+            {
+                "name": "mano",
+                "appeal": "dance",
+                "type": "spear",
+                "priority": [1, 2, 3]
+            },
+            {
+                "name": "kaho",
+                "appeal": "vocal",
+                "type": "spear",
+                "priority": [1, 2, 3]
+            },
+            {
+                "name": "sakuya",
+                "appeal": "visual",
+                "type": "spear",
+                "priority": [2, 3, 1]
+            },
+            {
+                "name": "kiriko",
+                "appeal": "vocal",
+                "type": "spear",
+                "priority": [3, 1, 2]
+            },
+            {
+                "name": "yuika",
+                "appeal": "dance",
+                "type": "variable",
+                "priority": [3, 2, 1]
+            }
+        ]
+    },
+    "nanairo": {
+        "name": "七彩メモリーズ",
+        "baseattack": 7245,
+        "health": 90000,
+        "idols": [
+            {
+                "name": "hiori",
+                "appeal": "visual",
+                "type": "variable",
+                "priority": [1, 3, 2]
+            },
+            {
+                "name": "juri",
+                "appeal": "dance",
+                "type": "variable",
+                "priority": [3, 2, 1]
+            },
+            {
+                "name": "sakuya",
+                "appeal": "vocal",
+                "type": "variable",
+                "priority": [3, 1, 2]
+            },
+            {
+                "name": "kiriko",
+                "appeal": "vocal",
+                "type": "spear",
+                "priority": [1, 3, 2]
+            },
+            {
+                "name": "yuika",
+                "appeal": "visual",
+                "type": "variable",
+                "priority": [1, 2, 3]
+            }
+        ]
+    },
+    "diva": {
+        "name": "歌姫楽宴",
+        "baseattack": 10550,
+        "health": 144000,
+        "idols": [
+            {
+                "name": "chiyuki",
+                "appeal": "dance",
+                "type": "variable",
+                "priority": [2, 3, 1]
+            },
+            {
+                "name": "rinze",
+                "appeal": "visual",
+                "type": "spear",
+                "priority": [3, 1, 2]
+            },
+            {
+                "name": "hiori",
+                "appeal": "dance",
+                "type": "variable",
+                "priority": [3, 1, 2]
+            },
+            {
+                "name": "mano",
+                "appeal": "vocal",
+                "type": "spear",
+                "priority": [3, 2, 1]
+            },
+            {
+                "name": "natsuha",
+                "appeal": "vocal",
+                "type": "spear",
+                "priority": [1, 2, 3]
+            }
+        ]
+    },
+    "semifinal": {
+        "name": "W.I.N.G. 準決勝",
+        "baseattack": 3980,
+        "health": 66000,
+        "idols": [
+            {
+                "name": "mano",
+                "appeal": "visual",
+                "type": "spear",
+                "priority": [1, 2, 3]
+            },
+            {
+                "name": "hiori",
+                "appeal": "visual",
+                "type": "variable",
+                "priority": [1, 3, 2]
+            },
+            {
+                "name": "sakuya",
+                "appeal": "vocal",
+                "type": "variable",
+                "priority": [3, 1, 2]
+            },
+            {
+                "name": "yuika",
+                "appeal": "vocal",
+                "type": "variable",
+                "priority": [1, 2, 3]
+            },
+            {
+                "name": "kiriko",
+                "appeal": "dance",
+                "type": "spear",
+                "priority": [1, 3, 2]
+            }
+        ]
+    },
+    "final": {
+        "name": "W.I.N.G. 決勝",
+        "baseattack": 4634,
+        "health": 72000,
+        "idols": [
+            {
+                "name": "juri",
+                "appeal": "visual",
+                "type": "variable",
+                "priority": [3, 2, 1]
+            },
+            {
+                "name": "rinze",
+                "appeal": "dance",
+                "type": "spear",
+                "priority": [3, 1, 2]
+            },
+            {
+                "name": "natsuha",
+                "appeal": "vocal",
+                "type": "spear",
+                "priority": [1, 2, 3]
+            },
+            {
+                "name": "chiyuki",
+                "appeal": "vocal",
+                "type": "variable",
+                "priority": [2, 3, 1]
+            },
+            {
+                "name": "mano",
+                "appeal": "dance",
+                "type": "spear",
+                "priority": [3, 2, 1]
+            }
+        ]
+    }
+}

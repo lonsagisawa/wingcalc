@@ -1,4 +1,9 @@
-# wingcalc
+# [WIP] シャニマスW.I.N.G.編 ライバルアピール火力計算機
+
+W.I.N.G.編でライバルが出してくる火力がわかります。
+
+## Special Thanks
+**[シャニマス攻略 Wiki*](https://wikiwiki.jp/shinycolors/)**
 
 ## Project setup
 ```
