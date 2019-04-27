@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4c4eaea3-d323-40c4-af0f-54dd9bd924d4/deploy-status)](https://app.netlify.com/sites/wingcalc/deploys)
+
 # [WIP] シャニマスW.I.N.G.編 ライバルアピール火力計算機
 
 W.I.N.G.編でライバルが出してくる火力がわかります。
