@@ -73,7 +73,6 @@
     <h2>{{ livedata[audition].name }}</h2>
     <p>基礎攻撃力: {{ livedata[audition].baseattack }}<br>
     審査員体力: {{ livedata[audition].health }}</p>
-
     <table>
       <thead>
         <tr><th>アピール</th><th>一致時攻撃力</th><th>不一致時攻撃力</th></tr>
@@ -81,7 +80,9 @@
       <tbody>
         <tr><td>Perfect</td><td>{{ Math.round(livedata[audition].baseattack * 1.5 * 2.0) }}</td><td>{{ Math.round(livedata[audition].baseattack * 1.5) }}</td></tr>
         <tr><td>Good</td><td>{{ Math.round(livedata[audition].baseattack * 1.1 * 2.0) }}</td><td>{{ Math.round(livedata[audition].baseattack * 1.1) }}</td></tr>
+        <tr><td>Normal</td><td>{{ Math.round(livedata[audition].baseattack * 1.0 * 2.0) }}</td><td>{{ Math.round(livedata[audition].baseattack * 1.0) }}</td></tr>
         <tr><td>Bad</td><td>{{ Math.round(livedata[audition].baseattack * 0.5 * 2.0) }}</td><td>{{ Math.round(livedata[audition].baseattack * 0.5) }}</td></tr>
+        <tr><td>思い出</td><td colspan="2">全属性に {{ Math.round(livedata[audition].baseattack * 2.0) }}</td></tr>
       </tbody>
     </table>
 
