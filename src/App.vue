@@ -1,6 +1,9 @@
 <template>
-  <div id="app">
-    <h1>ライバルアイドル火力計算機</h1>
+  <div id="app" class="container">
+
+    <div class="jumbotron mt-4">
+      <h1>ライバルアイドル火力計算機</h1>
+    </div>
 
     <ul>
       <li>ソースコード <a href="https://github.com/project-brightblue/wingcalc">https://github.com/project-brightblue/wingcalc</a></li>
@@ -11,7 +14,7 @@
 
     <!-- そのうちjsonからオーディションの情報を拾って生成させるようにする -->
 
-    <select v-model="audition">
+    <select v-model="audition" class="form-control">
       <option disabled value="">シーズン2</option>
       <option value="elebest">[10万]エレぇベスト</option>
       <option disabled value="">シーズン4</option>
@@ -70,10 +73,12 @@
     <!-- ここより下は、コンポーネントにオブジェクトを渡せるようになったら
          コンポーネントを分ける -->
 
-    <h2>{{ livedata[audition].name }}</h2>
+    <hr>
+
+    <h2 class="text-center">{{ livedata[audition].name }}</h2>
     <p>基礎攻撃力: {{ livedata[audition].baseattack }}<br>
     審査員体力: {{ livedata[audition].health }}</p>
-    <table>
+    <table class="table">
       <thead>
         <tr><th>アピール</th><th>一致時攻撃力</th><th>不一致時攻撃力</th></tr>
       </thead>
@@ -86,21 +91,21 @@
       </tbody>
     </table>
 
-    <table>
+    <table class="table table-striped">
       <thead>
-        <tr><th></th><th>得意</th><th>傾向</th><th>優先度</th></tr>
+        <tr><th scope="col"></th><th scope="col">得意</th><th scope="col">傾向</th><th scope="col">優先度</th></tr>
       </thead>
       <tbody>
         <tr v-for="rivaldata in livedata[audition].idols" :key="rivaldata.id">
-          <td>アイドル{{ rivaldata.num }} <img :alt="rivaldata.name" :src="require('./assets/img/idol/' + rivaldata.name + '.png')" width="64px" height="64px"></td>
-          <td v-if="rivaldata.appeal == 'vocal'" style="background-color: #ff99be;">ボーカル</td>
-          <td v-else-if="rivaldata.appeal == 'visual'" style="background-color: #ffe89e">ビジュアル</td>
-          <td v-else style="background-color: #9ebeff">ダンス</td>
+          <th class="align-middle" scope="row">アイドル{{ rivaldata.num }} <img :alt="rivaldata.name" :src="require('./assets/img/idol/' + rivaldata.name + '.png')" width="64px" height="64px"></th>
+          <td class="align-middle" v-if="rivaldata.appeal == 'vocal'" style="background-color: #ff99be;">ボーカル</td>
+          <td class="align-middle" v-else-if="rivaldata.appeal == 'visual'" style="background-color: #ffe89e">ビジュアル</td>
+          <td class="align-middle" v-else style="background-color: #9ebeff">ダンス</td>
 
-          <td v-if="rivaldata.type == 'spear'">スピア</td>
-          <td v-else>変遷</td>
+          <td class="align-middle" v-if="rivaldata.type == 'spear'">スピア</td>
+          <td class="align-middle" v-else>変遷</td>
 
-          <td>{{ rivaldata.priority }}</td>
+          <td class="align-middle">{{ rivaldata.priority }}</td>
         </tr>
 
       </tbody>
@@ -133,11 +138,3 @@ export default {
   }
 }
 </script>
-
-<style>
-#app {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 540px;
-}
-</style>
