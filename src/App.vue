@@ -97,10 +97,10 @@
       </thead>
       <tbody>
         <tr v-for="rivaldata in livedata[audition].idols" :key="rivaldata.id">
-          <th class="align-middle" scope="row">アイドル{{ rivaldata.num }} <img :alt="rivaldata.name" :src="require('./assets/img/idol/' + rivaldata.name + '.png')" width="64px" height="64px"></th>
-          <td class="align-middle" v-if="rivaldata.appeal == 'vocal'" style="background-color: #ff99be;">ボーカル</td>
-          <td class="align-middle" v-else-if="rivaldata.appeal == 'visual'" style="background-color: #ffe89e">ビジュアル</td>
-          <td class="align-middle" v-else style="background-color: #9ebeff">ダンス</td>
+          <th class="align-middle" scope="row">アイドル{{ rivaldata.num }}<br><img :alt="rivaldata.name" :src="require('./assets/img/idol/' + rivaldata.name + '.png')" width="64px" height="64px"></th>
+          <td class="align-middle" v-if="rivaldata.appeal == 'vocal'" style="background-color: #ff99be;">Vo</td>
+          <td class="align-middle" v-else-if="rivaldata.appeal == 'visual'" style="background-color: #ffe89e">Vi</td>
+          <td class="align-middle" v-else style="background-color: #9ebeff">Da</td>
 
           <td class="align-middle" v-if="rivaldata.type == 'spear'">スピア</td>
           <td class="align-middle" v-else>変遷</td>
