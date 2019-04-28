@@ -3,7 +3,7 @@
     <h1>ライバルアイドル火力計算機</h1>
 
     <ul>
-      <li>ソースコード [https://github.com/project-brightblue/wingcalc](https://github.com/project-brightblue/wingcalc)</li>
+      <li>ソースコード <a href="https://github.com/project-brightblue/wingcalc">https://github.com/project-brightblue/wingcalc</a></li>
       <li>ほとんどハリボテです</li>
       <li><a href="https://wikiwiki.jp/shinycolors/%E4%BB%95%E6%A7%98%E8%80%83%E5%AF%9F#e555fc6c">火力の計算</a>と<a href="https://wikiwiki.jp/shinycolors/%E5%90%84%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%80%8B%E5%88%A5%E6%94%BB%E7%95%A5">ライブの情報</a>はWikiのものを参考にしています</li>
       <li>謎バフについては検証中です</li>
