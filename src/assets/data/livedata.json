@@ -5,24 +5,28 @@
         "health": 35000,
         "idols": [
             {
+                "num": "A",
                 "name": "meguru",
                 "appeal": "dance",
                 "type": "variable",
                 "priority": [1, 2, 3]
             },
             {
+                "num": "B",
                 "name": "mamimi",
                 "appeal": "visual",
                 "type": "variable",
                 "priority": [2, 1, 3]
             },
             {
+                "num": "C",
                 "name": "sakuya",
                 "appeal": "dance",
                 "type": "spear",
                 "priority": [1, 2, 3]
             },
             {
+                "num": "D",
                 "name": "yuika",
                 "appeal": "visual",
                 "type": "variable",
@@ -36,30 +40,35 @@
         "health": 75000,
         "idols": [
             {
+                "num": "A",
                 "name": "mano",
                 "appeal": "dance",
                 "type": "spear",
                 "priority": [1, 2, 3]
             },
             {
+                "num": "B",
                 "name": "kaho",
                 "appeal": "vocal",
                 "type": "spear",
                 "priority": [1, 2, 3]
             },
             {
+                "num": "C",
                 "name": "sakuya",
                 "appeal": "visual",
                 "type": "spear",
                 "priority": [2, 3, 1]
             },
             {
+                "num": "D",
                 "name": "kiriko",
                 "appeal": "vocal",
                 "type": "spear",
                 "priority": [3, 1, 2]
             },
             {
+                "num": "E",
                 "name": "yuika",
                 "appeal": "dance",
                 "type": "variable",
@@ -73,30 +82,35 @@
         "health": 90000,
         "idols": [
             {
+                "num": "A",
                 "name": "hiori",
                 "appeal": "visual",
                 "type": "variable",
                 "priority": [1, 3, 2]
             },
             {
+                "num": "B",
                 "name": "juri",
                 "appeal": "dance",
                 "type": "variable",
                 "priority": [3, 2, 1]
             },
             {
+                "num": "C",
                 "name": "sakuya",
                 "appeal": "vocal",
                 "type": "variable",
                 "priority": [3, 1, 2]
             },
             {
+                "num": "D",
                 "name": "kiriko",
                 "appeal": "vocal",
                 "type": "spear",
                 "priority": [1, 3, 2]
             },
             {
+                "num": "E",
                 "name": "yuika",
                 "appeal": "visual",
                 "type": "variable",
@@ -110,30 +124,35 @@
         "health": 144000,
         "idols": [
             {
+                "num": "A",
                 "name": "chiyuki",
                 "appeal": "dance",
                 "type": "variable",
                 "priority": [2, 3, 1]
             },
             {
+                "num": "B",
                 "name": "rinze",
                 "appeal": "visual",
                 "type": "spear",
                 "priority": [3, 1, 2]
             },
             {
+                "num": "C",
                 "name": "hiori",
                 "appeal": "dance",
                 "type": "variable",
                 "priority": [3, 1, 2]
             },
             {
+                "num": "D",
                 "name": "mano",
                 "appeal": "vocal",
                 "type": "spear",
                 "priority": [3, 2, 1]
             },
             {
+                "num": "E",
                 "name": "natsuha",
                 "appeal": "vocal",
                 "type": "spear",
@@ -147,30 +166,35 @@
         "health": 66000,
         "idols": [
             {
+                "num": "A",
                 "name": "mano",
                 "appeal": "visual",
                 "type": "spear",
                 "priority": [1, 2, 3]
             },
             {
+                "num": "B",
                 "name": "hiori",
                 "appeal": "visual",
                 "type": "variable",
                 "priority": [1, 3, 2]
             },
             {
+                "num": "C",
                 "name": "sakuya",
                 "appeal": "vocal",
                 "type": "variable",
                 "priority": [3, 1, 2]
             },
             {
+                "num": "D",
                 "name": "yuika",
                 "appeal": "vocal",
                 "type": "variable",
                 "priority": [1, 2, 3]
             },
             {
+                "num": "E",
                 "name": "kiriko",
                 "appeal": "dance",
                 "type": "spear",
@@ -184,30 +208,35 @@
         "health": 72000,
         "idols": [
             {
+                "num": "A",
                 "name": "juri",
                 "appeal": "visual",
                 "type": "variable",
                 "priority": [3, 2, 1]
             },
             {
+                "num": "B",
                 "name": "rinze",
                 "appeal": "dance",
                 "type": "spear",
                 "priority": [3, 1, 2]
             },
             {
+                "num": "C",
                 "name": "natsuha",
                 "appeal": "vocal",
                 "type": "spear",
                 "priority": [1, 2, 3]
             },
             {
+                "num": "D",
                 "name": "chiyuki",
                 "appeal": "vocal",
                 "type": "variable",
                 "priority": [2, 3, 1]
             },
             {
+                "num": "E",
                 "name": "mano",
                 "appeal": "dance",
                 "type": "spear",
