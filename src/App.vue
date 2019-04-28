@@ -92,7 +92,7 @@
       </thead>
       <tbody>
         <tr v-for="rivaldata in livedata[audition].idols" :key="rivaldata.id">
-          <td><img :alt="rivaldata.name" :src="require('./assets/img/idol/' + rivaldata.name + '.png')"></td>
+          <td><img :alt="rivaldata.name" :src="require('./assets/img/idol/' + rivaldata.name + '.png')" width="64px" height="64px"></td>
           <td v-if="rivaldata.appeal == 'vocal'" style="background-color: #ff99be;">ボーカル</td>
           <td v-else-if="rivaldata.appeal == 'visual'" style="background-color: #ffe89e">ビジュアル</td>
           <td v-else style="background-color: #9ebeff">ダンス</td>
@@ -128,7 +128,7 @@ export default {
   },
   mounted () {
     axios
-      .get('https://gist.githubusercontent.com/mlny/76d52726958dac17bcc236473b04875f/raw')
+      .get('https://raw.githubusercontent.com/project-brightblue/wingcalc/master/src/assets/data/livedata.json')
       .then(response => (this.livedata = response.data))
   }
 }
