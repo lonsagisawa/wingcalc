@@ -5,6 +5,12 @@
       <h1>ライバルアイドル火力計算機</h1>
     </div>
 
+    <div>
+    <h2>【重要】THE LEGENDについて</h2>
+    <p style="font-weight: bold;">現在こちらでWikiのデータを元に作成したデータと、実際のゲーム内の表示が異なる状態になっていることを確認しています。<br>
+    独自検証を行い正しいデータに差し替えますので、今しばらくお待ちください。</p>
+    </div>
+
     <ul>
       <li>ソースコード <a href="https://github.com/project-brightblue/wingcalc">https://github.com/project-brightblue/wingcalc</a></li>
       <li>ほとんどハリボテです</li>
