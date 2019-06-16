@@ -41,38 +41,38 @@
         "idols": [
             {
                 "num": "A",
-                "name": "mano",
-                "appeal": "dance",
-                "type": "spear",
-                "priority": [1, 2, 3]
-            },
-            {
-                "num": "B",
-                "name": "kaho",
-                "appeal": "vocal",
-                "type": "spear",
-                "priority": [1, 2, 3]
-            },
-            {
-                "num": "C",
                 "name": "sakuya",
                 "appeal": "visual",
                 "type": "spear",
                 "priority": [2, 3, 1]
             },
             {
-                "num": "D",
+                "num": "B",
+                "name": "yuika",
+                "appeal": "dance",
+                "type": "variable",
+                "priority": [3, 2, 1]
+            },
+            {
+                "num": "C",
                 "name": "kiriko",
                 "appeal": "vocal",
                 "type": "spear",
                 "priority": [3, 1, 2]
             },
             {
+                "num": "D",
+                "name": "kaho",
+                "appeal": "vocal",
+                "type": "spear",
+                "priority": [1, 2, 3]
+            },
+            {
                 "num": "E",
-                "name": "yuika",
+                "name": "mano",
                 "appeal": "dance",
-                "type": "variable",
-                "priority": [3, 2, 1]
+                "type": "spear",
+                "priority": [1, 2, 3]
             }
         ]
     },
